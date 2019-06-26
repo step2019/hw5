@@ -29,5 +29,5 @@ def pata():
 @app.route('/norikae')
 # /norikae のリクエスト（例えば http://localhost:8080/norikae ）をこの関数で処理する。
 # ここで乗り換え案内をするように編集してください。
-def norikae(self):
+def norikae():
   return render_template('norikae.html', network=network)
